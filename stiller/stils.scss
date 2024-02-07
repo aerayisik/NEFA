@@ -857,10 +857,15 @@ $border-color_1: #007bff;
 }
 
 .bolum9 {
+    
+        display: flex;
+        flex-direction: row;
+    
     .sol-taraf {
         display: flex;
         align-items: center;
         margin-right: -100px;
+        padding-left: 200px;
 
         img {
             padding-top: 120px;
@@ -872,7 +877,9 @@ $border-color_1: #007bff;
     .sag-taraf {
         display: flex;
         flex-direction: column;
-        padding-left: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
 
         .kucuk-baslik {
             display: flex;
@@ -934,6 +941,87 @@ $border-color_1: #007bff;
     }
 
     padding-bottom: 50px;
+}
+.bolum10 {
+    display: flex;
+    justify-content: center;
+    .btn {
+        border-radius: 5%;
+        border: 1px solid #696a6b;
+        color: #666666 !important;
+        padding: 10px 20px;
+        font-size: 16px;
+
+    }
+}
+.bolum11 {
+.container {
+display: flex;
+flex-direction: row;
+margin-top: 40px;
+border-top: 1px solid #DDDDDD;
+border-bottom: 1px solid #DDDDDD;
+font-family: $font-family_1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666;
+
+
+
+}
+.sol {
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid #DDDDDD;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.orta {
+    display: flex;
+    flex-direction: row;
+    .letgo {
+        border-right: 1px solid #DDDDDD;
+    }
+    .ss {
+        padding-top: 60px;
+        padding-bottom: 50px;
+        padding-left: 60px;
+        
+    }
+    
+}
+.sag {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #DDDDDD;
+    .baslik {
+        font-weight: 500;
+
+    }
+    .mail {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        height: 38px;
+        width: 100%;
+        
+        .btn {
+            margin-left: 10px;
+        }
+    }
+}
+
+
+
+}
+footer {
+    padding: 25px 0;
+    text-align: center;
+    color: #666666 !important;
 }
 
 

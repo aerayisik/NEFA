@@ -786,12 +786,15 @@ body {
 }
 
 .bolum9 {
+  display: flex;
+  flex-direction: row;
   padding-bottom: 50px;
 }
 .bolum9 .sol-taraf {
   display: flex;
   align-items: center;
   margin-right: -100px;
+  padding-left: 200px;
 }
 .bolum9 .sol-taraf img {
   padding-top: 120px;
@@ -801,7 +804,8 @@ body {
 .bolum9 .sag-taraf {
   display: flex;
   flex-direction: column;
-  padding-left: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .bolum9 .sag-taraf .kucuk-baslik {
   display: flex;
@@ -854,4 +858,75 @@ body {
 }
 .bolum9 .accordion-header:focus + .accordion-content {
   max-height: 500px;
+}
+
+.bolum10 {
+  display: flex;
+  justify-content: center;
+}
+.bolum10 .btn {
+  border-radius: 5%;
+  border: 1px solid #696a6b;
+  color: #666666 !important;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.bolum11 .container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+}
+.bolum11 .sol {
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid #DDDDDD;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.bolum11 .orta {
+  display: flex;
+  flex-direction: row;
+}
+.bolum11 .orta .letgo {
+  border-right: 1px solid #DDDDDD;
+}
+.bolum11 .orta .ss {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 60px;
+}
+.bolum11 .sag {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 90px;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #DDDDDD;
+}
+.bolum11 .sag .baslik {
+  font-weight: 500;
+}
+.bolum11 .sag .mail {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 38px;
+  width: 100%;
+}
+.bolum11 .sag .mail .btn {
+  margin-left: 10px;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: #666666 !important;
 }/*# sourceMappingURL=stils.css.map */
